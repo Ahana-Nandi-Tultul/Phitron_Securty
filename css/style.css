@@ -133,12 +133,141 @@ body{
     color: #212529;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media screen and (max-width:687px) {
+
+.hire-us
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 100px auto 0px auto;
+}
+.hire-us-right
+{
+    margin-left: 20px;
+}
+.hire-us-btn
+{
+    background-color: #0DCAF0;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.hire-us-p
+{
+    font-size: 34px;
+    margin: 5px;
+    font-weight: 400;
+}
+.hire-us-title-span
+{
+    color:#FB9D5C
+}
+.hire-us-description-1
+{
+    color: #212529;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.hire-us-contact
+{
+    display: flex;
+}
+.hire-us-contact img{
+    height: 80px;
+    width: 80px;
+}
+.hire-us-contact-des
+{
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 30% auto auto auto auto;
+    background-color: #151515;
+    padding: 5%;
+    color: #C0BABA;
+    text-align: center;
+    line-height: 20px;
+}
+.footer-1-title
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-1-tilte-des
+{
+    color:#FB9D5C;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.footer-1-input
+{
+    background-color: #808080;
+    color: #C0BABA;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.footer-2{
+    color: #C0BABA;
+}
+.footer-2-title
+{
+    font-size: 30px;
+    margin: 5px;
+}
+.footer-2-op
+{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-3-1
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-3-1-title
+{
+    color: #FB9D5C;
+}
+.footer-3-1-des
+{
+    font-size: 20px;
+}
+@media screen and (min-width: 688px) and (max-width:992px) {
     .header-section,
+    .hire-us,
     .brands{
         flex-direction: column;
     }
-    .services-bottom
+    .services-bottom,
+    .footer
+    {
+        grid-template-columns: auto auto;
+    }
+    .front-bottom-row
+    {
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+    .nav-ul-li
+    {
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:687px) {
+    .header-section,
+    .hire-us,
+    .brands{
+        flex-direction: column;
+    }
+    .services-bottom,
+    .footer
     {
         grid-template-columns: auto;
     }
