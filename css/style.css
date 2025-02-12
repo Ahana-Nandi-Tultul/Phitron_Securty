@@ -241,6 +241,7 @@ body{
 @media screen and (min-width: 688px) and (max-width:992px) {
     .header-section,
     .hire-us,
+    .nav-ul,
     .brands{
         flex-direction: column;
     }
@@ -263,6 +264,7 @@ body{
 @media screen and (max-width:687px) {
     .header-section,
     .hire-us,
+    .nav-ul,
     .brands{
         flex-direction: column;
     }
